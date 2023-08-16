@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    margin: 0 6%;
+    color: #fff;
+    background-color: #111111;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+ 
+.top-section{
+    align-items: center;
+    display: flex;
+    margin-top: 2%;
+    
+}
+
+.logo{
+    flex: 0.7;
+}
+
+.logo img{
+    max-width: 80px;
+
+}
+ 
+.nav-container{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    margin-left: 60px;
+    font-weight: 400;
+    font-size: 12px;
+}
+ 
+.main{
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+    
+/* border: #0004ff solid 1.5px; */
+align-items: center;
+
+}
+
+
+.main-img img{
+    height: 450px;
+    width: 450px;
+}
+
+.main-content{
+    margin:15% 0;
+}
+
+
+.main-content h3{
+    font-weight:500;
+    color: #ff3343;
+    font-size: 20px;
+}
+
+
+.main-content h1{
+    font-size: 55px;
+    font-weight: 500;
+}
+
+
+p{
+    font-size: 15px;
+
+}
+
+.btn{
+    color: #fff;
+    border:none;
+    background-color: #c61322;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.bgblack{
+    background-color: #181818;
+    position: absolute;
+    left: -11rem;
+    top: 510px;
+    z-index: -1;
+    width: 53.5rem;
+    height: 820px;
+}
+
+
+.grid-container-1{
+    
+    margin: 10% 15%;
+
+    display: grid;
+    gap: 20px;
+  grid-template-columns: auto auto auto ;
+  
+  align-items: center;
+  justify-content: center;
+  
+  /* border: #0004ff solid 1.5px; */
+}
+
+.grid-item{
+
+    background-color: #1e1e1e ;
+    height: 220px;
+    width: 180px;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+ 
+ 
+}
+.grid-item *{
+    margin: 10px;
+    
+    
+}
+
+.grid-item h2{
+    font-weight: 600;
+font-size: 20px;
+}
+
+
+.grid-item img{
+    max-width: 45px;
+}
+
+
+
+.grid-item.item-active{
+    background-color: #c91b28;
+
+}
+.grid-item.item-not-active{
+    background-color: #ffc0cb00;
+
+}
+
+.grid-item a{
+    /* background-color: pink; */
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    
+}
+.grid-item .a-active{
+    color: #ff3343;
+}
+
+.grid-item .year{
+    /* background-color: pink; */
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: -25px;
+
+}
+
+.item-not-active h2{
+    font-size: 20px; 
+width: 300px;
+ 
+}
+
+.grid-item h1{
+    color: #ff3343;
+}
+
+.inner-grid{
+    text-align: center;
+  
+}
+
+.num{
+    margin-top: 40px;
+}
+
+.header{
+    display: flex;
+    margin: 20px 0;
+}
+
+.heading{
+    margin: 0 10%;
+    flex: 0.83;
+}
+
+.grid-container-2{
+    margin: 0 6%;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+    width: 700px;
+        }
+
+.grid-container-2 .grid-item{
+    width: 400px;
+    height: 300px;
+}
+
+.grid-container-2 .grid-item p{
+    color: #ff3343;
+ 
+}
+
+
+.grid-container-2 .grid-item img{
+    max-width: 370px;
+}
+
+.grid-container-2 .grid-item .img-active{
+    width: 370px;
+    height: 210px;
+}
+.contact-contianer{
+    margin: 60px 6%;
+    display: flex;
+    background-color: #1e1e1e;
+    padding: 60px;
+}
+
+.contact-item-1{
+    flex: 0.7;
+}
+
+.contact-item-2 button{
+justify-content: center;
+align-items: center;
+margin-top: 80px;
+position: relative;
+left: 100px;
+
+}
+
+.contact-item-1 h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+
+.contact-item-1 p{
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+.botttom-contact{
+    display: flex;
+    margin-left: 28%;
+}
+
+
+.botttom-contact li{
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    margin: 0 -6.5%;
+    margin-top: 30px;
+    background-color: #1e1e1e;
+    padding: 20px;
+}
+
+.logo-img{
+    flex: 0.3;
+    margin: 0 10%;
+
+}
+
+.logo-img img{
+    max-width: 70px;
+
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 1050px) {
+
+ .section-2 .grid-container-1 {
+    
+  grid-template-columns: auto auto ;
+ }
+ .section-3 .grid-container-2{
+    
+  grid-template-columns: auto ;
+ }
+
+ .main-img img{
+    height: 250px;
+    width: 250px;
+}
+
+.main{
+    grid-template-rows: 0.5fr;
+    
+}
+
+}
